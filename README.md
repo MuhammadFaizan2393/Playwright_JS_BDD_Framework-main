@@ -7,6 +7,7 @@ This is BDD automation framework using Cucumber, JavaScript and Playwright which
 - VS Code
 - Node.js
 - Cucumber (Gherkin) Full Support Extention
+- Allure
 
 ### *Install Playwright and Cucumber by executing the following commands in the terminal.*
 - npm init playwright@latest
@@ -17,9 +18,8 @@ This is BDD automation framework using Cucumber, JavaScript and Playwright which
 
 ### *Use the following command to execute test cases with the @login tag and to generate a Cucumber report.*
 - npm run test
-### *you can see the report link in the terminal.*
- ![image](https://github.com/spurqlabs/Playwright_JS_BDD_Framework/assets/107828690/7b9540ed-c9e6-4c3c-a44b-59d526a1b5b7)
-![image](https://github.com/spurqlabs/Playwright_JS_BDD_Framework/assets/107828690/50267c54-34f7-4625-8ed4-3632db18e657)
+### *Report *
+![alt text](image-1.png)
 
 
 #### FRAMEWORK DESIGN PATTERN :
