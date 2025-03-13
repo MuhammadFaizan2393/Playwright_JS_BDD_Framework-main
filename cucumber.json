@@ -1,0 +1,13 @@
+{
+    "default":{
+        "require": [
+            "steps/*.js",
+            "page/*.js",
+            "Utility/*.js"
+        ],
+        "format": [
+            "json:allure-results/results.json",
+            "progress"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "playwright-js-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js --tags @login",
+    "test:allure": "npx cucumber-js --format json:allure-results/results.json",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "test:allure:report": "npx cucumber-js --format json:allure-results/results.json && allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "keywords": [],
+  "author": "Google",
+  "license": "ISO",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.32.3",
+    "allure-cucumberjs": "^3.2.0",
+    "allure-playwright": "^3.2.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "playwright": "^1.32.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

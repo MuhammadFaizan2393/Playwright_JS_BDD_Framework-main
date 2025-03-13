@@ -1,0 +1,119 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature;login-to-orangehrm",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login to OrangeHRM",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 232600
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 390617200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I Visit the OrangeHRM login page",
+            "match": {
+              "location": "steps\\LoginSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3539113099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I enter username",
+            "match": {
+              "location": "steps\\LoginSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 398653100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I enter Password",
+            "match": {
+              "location": "steps\\LoginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16202999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I click on Login button",
+            "match": {
+              "location": "steps\\LoginSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1212791299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify dashboard URL",
+            "match": {
+              "location": "steps\\LoginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2411800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 396899,
+              "error_message": "ReferenceError: Status is not defined\n    at World.<anonymous> (C:\\Users\\mfaizan\\Downloads\\Playwright_JS_BDD_Framework-main\\Playwright_JS_BDD_Framework-main\\Utility\\TestHooks.js:12:34)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "tags": [],
+    "uri": "features\\Login.feature"
+  }
+]
