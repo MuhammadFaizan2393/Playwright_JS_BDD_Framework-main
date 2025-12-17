@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 232600
+              "duration": 256799
             }
           },
           {
@@ -22,7 +22,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 390617200
+              "duration": 1904214900
             }
           },
           {
@@ -35,7 +35,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3539113099
+              "duration": 2951946000
             }
           },
           {
@@ -48,7 +48,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 398653100
+              "duration": 456891099
             }
           },
           {
@@ -61,7 +61,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 16202999
+              "duration": 12019299
             }
           },
           {
@@ -74,7 +74,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1212791299
+              "duration": 1368241200
             }
           },
           {
@@ -87,7 +87,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2411800
+              "duration": 2275699
             }
           },
           {
@@ -95,8 +95,8 @@
             "hidden": true,
             "result": {
               "status": "failed",
-              "duration": 396899,
-              "error_message": "ReferenceError: Status is not defined\n    at World.<anonymous> (C:\\Users\\mfaizan\\Downloads\\Playwright_JS_BDD_Framework-main\\Playwright_JS_BDD_Framework-main\\Utility\\TestHooks.js:12:34)"
+              "duration": 375900,
+              "error_message": "ReferenceError: Status is not defined\n    at World.<anonymous> (D:\\Workspace\\PWJSFW\\Playwright_JS_BDD_Framework-main\\Utility\\TestHooks.js:12:34)"
             }
           }
         ],

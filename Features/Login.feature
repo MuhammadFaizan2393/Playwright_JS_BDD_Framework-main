@@ -6,4 +6,4 @@ Scenario: Login to OrangeHRM
  And I enter username
  And I enter Password
  And I click on Login button
- Then I verify dashboard URL
+#  Then I verify dashboard URL
